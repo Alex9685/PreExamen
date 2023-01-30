@@ -33,7 +33,7 @@ function cargarAjax(){
 
                 document.getElementById('inputBuscar').value = "";
 
-            idSeleccionado.innerHTML = "Id:" + item.id;
+            document.getElementById('inputBuscar').value = item.id;
             document.getElementById('inputNombre').value = item.name;
             document.getElementById('inputNombreUsuario').value = item.username;
             document.getElementById('inputEmail').value = item.email;

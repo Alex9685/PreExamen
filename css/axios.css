@@ -32,8 +32,44 @@ body{
 #botones{
     text-align: center;
     width: 500px;
-    }
+}
 
-    .inputsresultados{
+.inputsresultados{
         padding-left: 50px;
-    }
+}
+
+button{
+    background-color: #4ae8d877;
+    width: 80px;
+    height:30px;
+    border-radius: 0px;
+    transition: 0.2s;
+    border: 1px solid rgb(255, 0, 230);
+    color: aliceblue;
+    box-shadow: 0 0 .2rem #fff,
+    0 0 0.3rem #ab4ae8,
+    0 0 0.4rem #ab4ae8,
+    0 0 0.5rem #ab4ae8,
+    inset 0 0 0.6rem #ab4ae8; 
+   
+
+    
+
+}
+
+button:hover{
+    color: white;
+    transition: 0.2s;
+    transition: 0.2s;
+    border: 1px solid #fff;
+    box-shadow: 0 0 .2rem #fff,
+              0 0 0.3rem #ab4ae8,
+              0 0 0.4rem #ab4ae8,
+              0 0 0.5rem #ab4ae8,
+              inset 0 0 0.6rem #ab4ae8; 
+    border-radius: 20px;
+
+    color: #fff;
+    text-shadow:
+
+}
