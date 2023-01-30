@@ -34,13 +34,12 @@ function cargarAjax(){
                 document.getElementById('inputBuscar').value = "";
 
             idSeleccionado.innerHTML = "Id:" + item.id;
-            document.getElementById('nombre').value = item.name;
-            document.getElementById('nombreUsuario').value = item.username;
-            document.getElementById('email').value = item.email;
-            document.getElementById('calle').value = item.address.street;
-            document.getElementById('numero').value = item.address.suite;
-            document.getElementById('ciudad').value = item.address.city;
-
+            document.getElementById('inputNombre').value = item.name;
+            document.getElementById('inputNombreUsuario').value = item.username;
+            document.getElementById('inputEmail').value = item.email;
+            document.getElementById('inputCalle').value = item.address.street;
+            document.getElementById('inputNumero').value = item.address.suite;
+            document.getElementById('inputCiudad').value = item.address.city;
 
             return;
             }
